@@ -561,7 +561,7 @@ Projects
     grid-template-rows: 200px 200px;
     gap: 1rem;
     grid-template-areas:
-      'a b b'
+      'a b e'
       'a c d';
   }
   .project-img {
@@ -581,6 +581,9 @@ Projects
   }
   .project-4 {
     grid-area: d;
+  }
+  .project-5 {
+    grid-area: e;
   }
 }
 /*
